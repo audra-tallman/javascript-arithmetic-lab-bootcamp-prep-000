@@ -46,6 +46,6 @@ function makeInt(n) {
 
 n = Math.floor(Math.random() * 1000);
 
-function makeInt(n, 10) {
+function makeInt('n', 10) {
   return n;
 }
