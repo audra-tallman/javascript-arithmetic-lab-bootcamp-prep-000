@@ -53,5 +53,5 @@ function makeInt(n) {
 n = Math.floor(Math.random() * 1000);
 
 function preserveDecimal(n) {
-  return parseInt(n, 10);
+  return parseFloat(n, 10);
 }
